@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Using simple html -->
+  <div>
+    <h1>Hello World!!</h1>
+  </div>
+
+  <div id="root"></div>
+
+  <div id = "react_root">
+    <h1>Hello This is Saransh Meena!!</h1>
+  </div>
+  <!-- As soon as you try to render in the react_root. This h1 will be replaced by tags of react -->
+  <!-- You can see it by refreshing the page quickly -->
+</body>
+
+<!-- Core React file containing pure javascript developed by facebook engineers.
+This react.develepment.js contains JS Code hosted on the website -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+<!-- Bridge between core react and web browser -->
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<script>
+  // Hello world using javascript
+  const heading1 = document.createElement("h1");
+  heading1.innerHTML = "Hello World from JavaScript!!";
+  const root = document.getElementById("root");
+  root.appendChild(heading1);
+</script>
+
+<!-- React Code --> 
+<script src="./script.js"></script>
+</html>

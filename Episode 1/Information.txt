@@ -1,0 +1,29 @@
+What is React?
+It is a javascript library that is developed by facebook developers.
+Why library? => Because it can work on the small portion of your application independently.
+                For Ex- In our example, react on only working on the div with id = root else everything is as it is.
+
+What is CDN?
+Content delivery network connects the application with the content hosted on the server.
+EX - react hosted on the server and used in the code using these CDN links
+
+what are props?
+Props are childrens and attributes that we pass in an object
+
+What is the difference between library and frameworks?
+Ans => To make it even simpler, you can think of a library as a tool you use to do a specific job, like a hammer or a screwdriver. A framework, on the other hand, is more like a set of blueprints for building a house. The framework tells you how to build the house, and you have to follow the blueprint.
+
+// IMP1
+//const siblings = React.createElement("div", { id: "parent" },
+//    React.createElement("div", { id: "child" },
+//   [React.createElement("h1", {}, "This is the nested h1 heading using React"), 
+//    React.createElement("h2", {}, "This is the nested h2 heading using React")]));
+// IF we write this type of structure then it will become too messy and not easy to read
+// This is why JSX is used to simplify the structure of tags that we write
+// But yeah react can be written in js file too.
+
+// IMP2
+// Order of the script means files will matter, if you have not connected react with CDN and or have imported it after the file that you want to run which uses the react then you will get an error.
+
+// IMP3
+// First the html that you have written inside the body is executed (line by line) then the scripts will be executed (line by line) and react render will replace the already existed tags.
