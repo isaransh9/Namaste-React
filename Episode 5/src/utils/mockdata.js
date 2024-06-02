@@ -1,0 +1,51 @@
+
+export const resList = [
+  {
+    id: "85445",
+    resName: "KFC",
+    cuisine: ["Burgers", "Biryani", "American Snacks", "Fast Food"],
+    rating: "3.8",
+    timeToDeliver: "36",
+    img: "https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo.png",
+  },
+  {
+    id: "84557",
+    resName: "MacDonald's",
+    cuisine: ["Burgers", "Ice-Cream", "Special Drinks"],
+    rating: "3.8",
+    timeToDeliver: "36",
+    img: "https://w7.pngwing.com/pngs/676/74/png-transparent-fast-food-mcdonald-s-logo-golden-arches-restaurant-mcdonalds-mcdonald-s-logo-miscellaneous-food-company-thumbnail.png",
+  },
+  {
+    id: "84554443",
+    resName: "Dominos",
+    cuisine: ["Pizza", "Veg-Loaded"],
+    rating: "3.8",
+    timeToDeliver: "36",
+    img: "https://w7.pngwing.com/pngs/883/393/png-transparent-dominos-pizza-take-out-restaurant-logo-pizza-logo-food-text-rectangle.png",
+  },
+  {
+    id: "845764",
+    resName: "RushHr's",
+    cuisine: ["Burgers", "Special Aloo Burger", "Fast Food"],
+    rating: "3.8",
+    timeToDeliver: "36",
+    img: "https://lh3.googleusercontent.com/XzGpoE6N2etsELV83iKtjbN3u1tG7lhmzdtjgrCxKUQwJHFjzyNDUExgu5IAlzysXBZcRMFtgIRW8sl1mYDnyGAt1K8",
+  },
+  {
+    id: "854545",
+    resName: "Pizza Hut",
+    cuisine: ["Pizza", "Soft Drinks", "Coffee"],
+    rating: "3.6",
+    timeToDeliver: "26",
+    img: "https://upload.wikimedia.org/wikipedia/sco/thumb/d/d2/Pizza_Hut_logo.svg/1088px-Pizza_Hut_logo.svg.png",
+  },
+  {
+    id: "865445",
+    resName: "Relax",
+    cuisine: ["Paneer Kulcha", "Chicken", "Bhindi Fry", "Thali"],
+    rating: "4.8",
+    timeToDeliver: "56",
+    img: "https://cdn3.f-cdn.com/contestentries/1295462/26564987/5ac877799b181_thumb900.jpg",
+  },
+];
