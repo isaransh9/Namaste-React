@@ -25,14 +25,14 @@ Parcel is doing the job for us. The code is transpiled before it goes to the js 
 
 --Babel
 Babel converts the jsx to core react.
-It also converts the es6 to browser understanble form for the older version of the browsers.
+It also converts the es6 to browser understadable form for the older version of the browsers.
 
 --JSX Syntax
 const jsxHeading = <h1 className="Class-A" tabIndex="8" >Hi this is master piece of engineering!!</h1>
 You have to use camelcase for the attributes. A bit difference in html and jsx. Explore syntax of different attributes in jsx.
 
 --React Component
-Everything is react is components for example - header, footer, card, searchbar, input box, button, everything are react components.
+Everything in react is components for example - header, footer, card, searchbar, input box, button, everything are react components.
 
 Types of React components
 

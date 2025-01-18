@@ -1,7 +1,7 @@
 What is React?
 It is a javascript library that is developed by facebook developers.
 Why library? => Because it can work on the small portion of your application independently.
-                For Ex- In our example, react on only working on the div with id = root else everything is as it is.
+                For Ex- In our example, react will only be working on the div with id = root else everything is as it is.
 
 What is CDN?
 Content delivery network connects the application with the content hosted on the server.
